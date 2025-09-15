@@ -1,6 +1,8 @@
 body {
     margin: 0;
     overflow: hidden;
+    background-color: #000; /* Fundo preto para melhor contraste */
+    color: #fff; /* Texto branco para acessibilidade */
 }
 
 .controls {
@@ -12,7 +14,13 @@ body {
 
 canvas {
     position: absolute;
+    top: 0;
+    left: 0;
 }
+
 svg {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
